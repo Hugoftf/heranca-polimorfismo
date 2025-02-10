@@ -24,7 +24,7 @@ Nesse momento está formada a herança, a classe filha firma um "contrato" com a
 
 O polimorfismo é um dos conceitos fundamentais da programação orientada a objetos (POO) e é amplamente utilizado em Java. O termo polimorfismo se refere à capacidade de um objeto assumir diferentes formas, ou seja, uma mesma operação pode ser realizada por diferentes objetos de classes diferentes.
 
-#### Polimorfismo em tempo de execução ou Sobrescrita(Override)
+#### Polimorfismo em tempo de execução ou Sobrescrita (Override)
 
 Ocorre quando uma classe filha sobrescreve um método da classe pai. O método que será executado é decidido em tempo de execução, com base no tipo de objeto que está invocando o método.
 
@@ -38,6 +38,34 @@ Criei uma subclasse chamada de Corolla, ela estende a superclasse Automovel firm
 
 [img]
 
+O ato de implementar os metodos da superclasse Automovel implica em um polimorfismo de sobrescrita.
+
+Existem algumas regras que voce deve seguir para implementar esses metodos de forma correta.
+
+1 - O metodo deve ter o mesmo nome de assinatura da superclasse.
+
+[img]
+
+
+Se os nomes estão iguais, então não há erro de compilação.
+
+2 - O metodo dever ter o mesmo tipo de Retorno ou compativel (Esse ato é chamado de Covariant Return) com o da superclasse.
+
+[img]
+
+
+3 - O Modificador de acesso pode ser o mesmo da superclasse ou uma mais permissivo.
+
+[img]
+
+Se na superclasse o metodo estiver com o modificador de acesso protected, na subclasse você pode manter como protected ou alterar para um mais permissivo, no caso public.
+
+4 - Metodos da superclasse que declara alguma tipo exceção, podem ou não ser declarada no metodo da subclasse.
+
+[img]
+
+
+Você não é obrigado a declarar na subclasse exceções, mas caso declare, você pode declarar a mesma classe de exceção ou uma subclasse, respeitando a hierarquia.
 
 #### Polimorfismo em tempo de compilação ou Polimorfismo de sobrecarga(Overload)
 
