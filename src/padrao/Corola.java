@@ -2,7 +2,6 @@ package padrao;
 
 public class Corola extends Automovel {
 	
-	
 	public Corola(String corDoAltomovel, TipoAltomovel tipoDeAltomovel) {
 		super(corDoAltomovel, tipoDeAltomovel);
 		
