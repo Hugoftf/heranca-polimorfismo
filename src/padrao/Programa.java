@@ -21,6 +21,6 @@ public class Programa {
 		
 		Corola corola =  new Corola(corDoAltomovel, tipoAltomovel);
 		
-		corola.descricao();
+		corola.descricaoDoAutomovel();
 	}
 }

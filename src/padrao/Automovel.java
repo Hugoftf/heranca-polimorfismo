@@ -10,9 +10,14 @@ public abstract class Automovel {
 		this.tipoDEAltomovel = tipoDeAltomovel;
 	}
 	
-	public abstract void acelereracao();
+	public Automovel() {
+	}
 	
-	protected abstract void descricao() throws Exception;
+	public abstract void acelereracaoMaxima();
+	
+	protected abstract void descricaoDoAutomovel() throws Exception;
+	
+	abstract Automovel automovel();
 
 	public String getCorDoAltomovel() {
 		return corDoAltomovel;
