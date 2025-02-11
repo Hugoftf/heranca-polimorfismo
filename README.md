@@ -30,7 +30,7 @@ Ocorre quando uma classe filha sobrescreve um método da classe pai. O método q
 
 Para ilustar o polimorfismo de sobrescrita vou usar uma superclasse chamada de Automovel, ela é uma classe abstrata e tem duas variaveis, cor de automovel e tipo de automovel, e tem três métodos, aceleração máxima, descrição do automóvel e automovel:
 
-![imagem local](imagem_readme/classe_animal.png)
+![imagem local](imagem_readme/classe_automovel.png)
 
 Classes abstratas são comumente usadas para serem superclasses, elas carregam a palavra chave abstract na assinatura da classe ou metodo, onde seu diferencial é que não podem ser instanciada, embora possam ter construtores para iniciar seus campos através das subclasses, elas tem o papel de ser uma classe suporte, podedendo ter metodos comuns, estáticos e também abstratos. Os metodos abstratos não possuim corpos e sua função e ser passada obrigatoriamente para as subclasses, como uma espécie de contrato. 
 
