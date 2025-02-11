@@ -30,13 +30,13 @@ Ocorre quando uma classe filha sobrescreve um método da classe pai. O método q
 
 Para ilustar o polimorfismo de sobrescrita vou usar uma superclasse chamada de Automovel, ela é uma classe abstrata e tem duas variaveis, cor de automovel e tipo de automovel, e tem três métodos, aceleração máxima, descrição do automóvel e automovel:
 
-[imagem local](imagem_readme/classe_animal.png)
+![imagem local](imagem_readme/classe_animal.png)
 
 Classes abstratas são comumente usadas para serem superclasses, elas carregam a palavra chave abstract na assinatura da classe ou metodo, onde seu diferencial é que não podem ser instanciada, embora possam ter construtores para iniciar seus campos através das subclasses, elas tem o papel de ser uma classe suporte, podedendo ter metodos comuns, estáticos e também abstratos. Os metodos abstratos não possuim corpos e sua função e ser passada obrigatoriamente para as subclasses, como uma espécie de contrato. 
 
 Criei uma subclasse chamada de Corolla, ela estende a superclasse Automovel firmando a herança: 
 
-[imagem local](imagem_readme/classe_corolla.png)
+![imagem local](imagem_readme/classe_corolla.png)
 
 O ato de implementar os metodos da superclasse Automovel implica em um polimorfismo de sobrescrita, @Override é uma anotação, em java anotações são tipos especiais que não alteram a lógica do programa, servem para fornecer informações adicionais sobre classes, métodos, campos, parâmetros, entre outros. As anotaçãoes não são obrigatórias em metodos sobrescrito mas 
 fortesmentes recomendadas
@@ -45,12 +45,12 @@ Existem algumas regras que voce deve seguir para implementar esses metodos de fo
 
 1 - O metodo deve ter o mesmo nome de assinatura da superclasse.
 
-[imagem local](imagem_readme/regra_1_sobrescrita.png)
+![imagem local](imagem_readme/regra_1_sobrescrita.png)
 
 
 2 - O metodo dever ter o mesmo tipo de Retorno ou compativel com o da superclasse (Esse ato é chamado de Covariant Return).
 
-[imagem local](imagem_readme/regra_2_sobrescrita.png)]
+![imagem local](imagem_readme/regra_2_sobrescrita.png)]
 
 
 3 - O Modificador de acesso pode ser o mesmo da superclasse ou uma mais permissivo.
