@@ -28,7 +28,7 @@ O polimorfismo é um dos conceitos fundamentais da programação orientada a obj
 
 Ocorre quando uma classe filha sobrescreve um método da classe pai. O método que será executado é decidido em tempo de execução, com base no tipo de objeto que está invocando o método.
 
-Para ilustar o polimorfismo de sobrescrita vou usar uma superclasse chamada de Automovel, ela é uma classe abstrata e tem duas variaveis, cor de automovel e tipo de automovel, e também tem dois métodos, aceleração máxima e descrição do automóvel:
+Para ilustar o polimorfismo de sobrescrita vou usar uma superclasse chamada de Automovel, ela é uma classe abstrata e tem duas variaveis, cor de automovel e tipo de automovel, e tem três métodos, aceleração máxima, descrição do automóvel e automovel:
 
 [img]
 
@@ -38,7 +38,8 @@ Criei uma subclasse chamada de Corolla, ela estende a superclasse Automovel firm
 
 [img]
 
-O ato de implementar os metodos da superclasse Automovel implica em um polimorfismo de sobrescrita.
+O ato de implementar os metodos da superclasse Automovel implica em um polimorfismo de sobrescrita, @Override é uma anotação, em java anotações são tipos especiais que não alteram a lógica do programa, servem para fornecer informações adicionais sobre classes, métodos, campos, parâmetros, entre outros. As anotaçãoes não são obrigatórias em metodos sobrescrito mas 
+fortesmentes recomendadas
 
 Existem algumas regras que voce deve seguir para implementar esses metodos de forma correta, sem que retorne erro de compilação.
 
@@ -54,7 +55,8 @@ Existem algumas regras que voce deve seguir para implementar esses metodos de fo
 
 3 - O Modificador de acesso pode ser o mesmo da superclasse ou uma mais permissivo.
 
-[img]
+[img] superclase img -  subclasse
+
 
 Se na superclasse o metodo estiver com o modificador de acesso protected, na subclasse você pode manter como protected ou alterar para um mais permissivo, no caso public.
 
