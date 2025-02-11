@@ -24,11 +24,11 @@ Nesse momento está formada a herança, a classe filha firma um "contrato" com a
 
 O polimorfismo é um dos conceitos fundamentais da programação orientada a objetos (POO) e é amplamente utilizado em Java. O termo polimorfismo se refere à capacidade de um objeto assumir diferentes formas, ou seja, uma mesma operação pode ser realizada por diferentes objetos de classes diferentes.
 
-#### Polimorfismo em tempo de execução ou Sobrescrita (Override)
+### Polimorfismo em tempo de execução ou Sobrescrita (Override)
 
 Ocorre quando uma classe filha sobrescreve um método da classe pai. O método que será executado é decidido em tempo de execução, com base no tipo de objeto que está invocando o método.
 
-Para ilustar o polimorfismo de sobrescrita vou usar uma superclasse chamada de Automovel, ela é uma classe abstrata e tem duas variaveis, cor de automovio e tipo de automovio, e também tem dois métodos, aceleração máxima e descrição do automóvel:
+Para ilustar o polimorfismo de sobrescrita vou usar uma superclasse chamada de Automovel, ela é uma classe abstrata e tem duas variaveis, cor de automovel e tipo de automovel, e também tem dois métodos, aceleração máxima e descrição do automóvel:
 
 [img]
 
@@ -40,16 +40,14 @@ Criei uma subclasse chamada de Corolla, ela estende a superclasse Automovel firm
 
 O ato de implementar os metodos da superclasse Automovel implica em um polimorfismo de sobrescrita.
 
-Existem algumas regras que voce deve seguir para implementar esses metodos de forma correta.
+Existem algumas regras que voce deve seguir para implementar esses metodos de forma correta, sem que retorne erro de compilação.
 
 1 - O metodo deve ter o mesmo nome de assinatura da superclasse.
 
 [img]
 
 
-Se os nomes estão iguais, então não há erro de compilação.
-
-2 - O metodo dever ter o mesmo tipo de Retorno ou compativel (Esse ato é chamado de Covariant Return) com o da superclasse.
+2 - O metodo dever ter o mesmo tipo de Retorno ou compativel com o da superclasse (Esse ato é chamado de Covariant Return).
 
 [img]
 
@@ -65,8 +63,10 @@ Se na superclasse o metodo estiver com o modificador de acesso protected, na sub
 [img]
 
 
-Você não é obrigado a declarar na subclasse exceções, mas caso declare, você pode declarar a mesma classe de exceção ou uma subclasse, respeitando a hierarquia.
+QUando há um metodo na superclasse que declara qualquer exceção, você não é obrigado a declarar na subclasse, mas caso declare, você pode declarar a mesma classe de exceção ou uma subclasse, respeitando a hierarquia. Se na superclasse o metodo não progapagar nenhum tipo de exceção na assinatura, na subclasse não pode ser declarada.
 
-#### Polimorfismo em tempo de compilação ou Polimorfismo de sobrecarga(Overload)
+#### Sobrescrita na Pratica
+
+### Polimorfismo em tempo de compilação ou Polimorfismo de sobrecarga(Overload)
 
 Ocorre quando você tem múltiplos métodos com o mesmo nome, mas com parâmetros diferentes (tipo ou número de parâmetros) na mesma classe. O compilador decide qual método chamar com base na assinatura do método durante a compilação
