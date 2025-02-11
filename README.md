@@ -43,7 +43,7 @@ fortesmentes recomendadas
 
 Existem algumas regras que voce deve seguir para implementar esses metodos de forma correta, sem que retorne erro de compilação.
 
-1 - O metodo deve ter o mesmo nome de assinatura da superclasse.
+1 - O metodo deve ter o mesmo nome de assinatura do metodo da superclasse.
 
 ![imagem local](imagem_readme/regra_1_sobrescrita.png)
 
