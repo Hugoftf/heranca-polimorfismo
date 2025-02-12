@@ -96,7 +96,7 @@ Detalhe importante é que enquanto a sobrescrita é implementar um metodo na cla
 
 Regras para polimorfismo de sobregarga:
 
-1 - O metodo deve conter o mesmo nome do metodo a ser sobrecarregado com diferentes tipos e tamanho de parametros.
+1 - O metodo deve conter o mesmo nome do metodo a ser sobrecarregado com diferentes tipos ou tamanho de parametros.
 
 2 -  Podemos usar varargs na sobrecarga:
 
