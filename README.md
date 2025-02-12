@@ -50,7 +50,7 @@ Existem algumas regras que voce deve seguir para implementar esses metodos de fo
 
 2 - O metodo dever ter o mesmo tipo de Retorno ou compativel com o da superclasse (Esse ato é chamado de Covariant Return).
 
-![imagem local](imagem_readme/regra_2_sobrescrita.png)]
+![imagem local](imagem_readme/regra_2_sobrescrita.png)
 
 
 3 - O Modificador de acesso pode ser o mesmo da superclasse ou uma mais permissivo.
@@ -58,16 +58,15 @@ Existem algumas regras que voce deve seguir para implementar esses metodos de fo
 [img] superclase img -  subclasse
 
 
-Se na superclasse o metodo estiver com o modificador de acesso protected, na subclasse você pode manter como protected ou alterar para um mais permissivo, no caso public.
+Se na superculasse o metodo estiver com o modificador de acesso protected, na subclasse você pode manter como protected ou alterar para um mais permissivo, no caso public.
 
 4 - Metodos da superclasse que declara alguma tipo exceção, podem ou não ser declarada no metodo da subclasse.
 
-[img]
-
-
-QUando há um metodo na superclasse que declara qualquer exceção, você não é obrigado a declarar na subclasse, mas caso declare, você pode declarar a mesma classe de exceção ou uma subclasse, respeitando a hierarquia. Se na superclasse o metodo não progapagar nenhum tipo de exceção na assinatura, na subclasse não pode ser declarada.
+Qando há um metodo na superclasse que declara qualquer exceção, você não é obrigado a declarar na subclasse, mas caso declare, você pode declarar a mesma classe de exceção ou uma subclasse, respeitando a hierarquia. Se na superclasse o metodo não progapagar nenhum tipo de exceção na assinatura, na subclasse não pode ser declarada.
 
 #### Sobrescrita na Pratica
+
+
 
 ### Polimorfismo em tempo de compilação ou Polimorfismo de sobrecarga(Overload)
 
