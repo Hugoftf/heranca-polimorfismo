@@ -18,7 +18,8 @@ public class Programa {
 		
 		String corDoAltomovel = "Azul";
 		
-		Automovel corola =  new Corola(corDoAltomovel, tipoAltomovel);
-		corola.descricaoDoAutomovel();
+		Corola corola =  new Corola(corDoAltomovel, tipoAltomovel);
+		
+		corola.descricaoDoAutomovel("RTX 8", 6);
 	}
 }
