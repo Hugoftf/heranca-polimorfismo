@@ -56,6 +56,7 @@ Existem algumas regras que voce deve seguir para implementar esses metodos de fo
 3 - O Modificador de acesso pode ser o mesmo da superclasse ou uma mais permissivo:
 
 Classe pai:
+
 ![imagem local](imagem_readme/modificador_acesso_pai.png)
 
 
@@ -77,8 +78,6 @@ Quando há um metodo na superclasse que declara qualquer exceção, você não �
 ![imagem local](imagem_readme/instancia.png)
 
 Isso permite que voce tenha acesso a campos da classe pai com a diferença que metodos sobrescritos chamados no programa serão o da classe filha. Exatamente isso, o metodo depende do tipo real do objeto. O que acontece é que as duas classes são inicializada através dos construtores, então campos de ambas as classes estão disponíveis, podendo ter multiplas formas de usar esses metodos sobrescritos. 
-
-![imagem local](imagem_readme/classe_corola.png)
 
 Na prática: 
 
