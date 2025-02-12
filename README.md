@@ -105,11 +105,15 @@ Regras para polimorfismo de sobregarga:
 
 #### Sobrecarga na Prática
 
-A sobrecarga tem uma ideia parecida com o polimorfismo de sobrescrita, você pode oferecer diferentes implementações no corpo de cada metodo de acordo com sua necessidade. Existe uma diversidades de ideias que você pode realizar com essa ferramenta: 
+A sobrecarga tem uma ideia parecida com o polimorfismo de sobrescrita, você pode oferecer diferentes implementações no corpo de cada metodo de acordo com sua necessidade. Existe uma diversidades de ideias que você pode realizar com essa ferramenta:
+
+A diferenciação é realizada em tempo de exceção, você escolhe de acordo com tipos e numeros de variaveis de acordo com metodos que voce já implementou na sua classe
 
 Na prática: 
 
 [img] 
+
+(OBS: Para utilizar a sobrecarga aqui tive que mudar a referencia do meu objeto para a da subclasse, por que o metodo que eu queria utilizar é uma sobrecarga de um metodo na classe Corolla, como essa sobrecarga não existe na classe Automovel, com a refência de Automovel automovel =  new Corolla() não fica visivel para eu utilizar).
 
 Saída no console:
 
