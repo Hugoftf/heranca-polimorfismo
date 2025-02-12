@@ -41,7 +41,7 @@ Criei uma subclasse chamada de Corolla, ela estende a superclasse Automovel firm
 O ato de implementar os metodos da superclasse Automovel implica em um polimorfismo de sobrescrita, @Override é uma anotação, em java anotações são tipos especiais que não alteram a lógica do programa, servem para fornecer informações adicionais sobre classes, métodos, campos, parâmetros, entre outros. As anotaçãoes não são obrigatórias em metodos sobrescrito mas 
 fortesmentes recomendadas
 
-Existem algumas regras que voce deve seguir para implementar esses metodos de forma correta, sem que retorne erro de compilação.
+Existem algumas regras que voce deve seguir para implementar esses metodos de forma correta sem que retorne erro de compilação.
 
 1 - O metodo deve ter o mesmo nome de assinatura do metodo da superclasse.
 
@@ -62,9 +62,19 @@ Se na superculasse o metodo estiver com o modificador de acesso protected, na su
 
 4 - Metodos da superclasse que declara alguma tipo exceção, podem ou não ser declarada no metodo da subclasse.
 
-Qando há um metodo na superclasse que declara qualquer exceção, você não é obrigado a declarar na subclasse, mas caso declare, você pode declarar a mesma classe de exceção ou uma subclasse, respeitando a hierarquia. Se na superclasse o metodo não progapagar nenhum tipo de exceção na assinatura, na subclasse não pode ser declarada.
+Quando há um metodo na superclasse que declara qualquer exceção, você não é obrigado a declarar na subclasse, mas caso declare, você pode declarar a mesma classe de exceção ou uma subclasse, respeitando a hierarquia. Se na superclasse o metodo não progapagar nenhum tipo de exceção na assinatura, na subclasse não pode ser declarada.
 
 #### Sobrescrita na Pratica
+
+É aqui que está a magia, polimorfismo é uma das ferramentas mais poderosoas da POO, em java você pode criar um objeto de uma classe filha a partir de uma referência da classe pai.
+
+[img] img da instanciação de classes
+
+Isso permite que voce tenha acesso a campos da classe pai com a diferença que metodos sobrescritos chamados no programa serão o da classe filha. Exatamente isso, o metodo depende do tipo real do objeto. O que acontece é que as duas classes são inicializada através dos construtores, então campos de ambas as classes estão disponíveis, podendo ter multiplas formas de usar esses metodos sobrescritos. 
+
+[img] classe corola completa
+
+[img] funcionamento do programa com a saida no console
 
 
 
