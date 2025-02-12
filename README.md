@@ -26,7 +26,7 @@ O polimorfismo é um dos conceitos fundamentais da programação orientada a obj
 
 ### Polimorfismo em tempo de execução ou Sobrescrita (Override)
 
-Ocorre quando uma classe filha sobrescreve um método da classe pai. O método que será executado é decidido em tempo de execução, com base no tipo de objeto que está invocando o método.
+"Ocorre quando uma classe filha sobrescreve um método da classe pai. O método que será executado é decidido em tempo de execução, com base no tipo de objeto que está invocando o método."
 
 Para ilustar o polimorfismo de sobrescrita vou usar uma superclasse chamada de Automovel, ela é uma classe abstrata e tem duas variaveis, cor de automovel e tipo de automovel, e tem três métodos, aceleração máxima, descrição do automóvel e automovel:
 
@@ -83,11 +83,34 @@ Na prática:
 
 ![imagem local](imagem_readme/classe_main.png)
 
-saída no console: 
+Saída no console: 
 
 ![imagem local](imagem_readme/console.png)
 
 
 ### Polimorfismo em tempo de compilação ou Polimorfismo de sobrecarga(Overload)
 
-Ocorre quando você tem múltiplos métodos com o mesmo nome, mas com parâmetros diferentes (tipo ou número de parâmetros) na mesma classe. O compilador decide qual método chamar com base na assinatura do método durante a compilação
+"Ocorre quando você tem múltiplos métodos com o mesmo nome, mas com parâmetros diferentes (tipo ou número de parâmetros) na mesma classe. O compilador decide qual método chamar com base na assinatura do método durante a compilação. "
+
+Detalhe importante é que enquanto a sobrescrita é implementar um metodo na classe pai, a sobrecarga deve ser feita na propria classe.
+
+Regras para polimorfismo de sobregarga:
+
+1 - O metodo deve conter o mesmo nome do metodo a ser sobrecarregado com diferentes tipos e tamanho de parametros.
+
+2 -  Podemos usar varargs na sobrecarga:
+
+[img]
+
+
+#### Sobrecarga na Prática
+
+A sobrecarga tem uma ideia parecida com o polimorfismo de sobrescrita, você pode oferecer diferentes implementações no corpo de cada metodo de acordo com sua necessidade. Existe uma diversidades de ideias que você pode realizar com essa ferramenta: 
+
+Na prática: 
+
+[img] 
+
+Saída no console:
+
+[img]
