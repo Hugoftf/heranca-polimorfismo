@@ -53,9 +53,15 @@ Existem algumas regras que voce deve seguir para implementar esses metodos de fo
 ![imagem local](imagem_readme/regra_2_sobrescrita.png)
 
 
-3 - O Modificador de acesso pode ser o mesmo da superclasse ou uma mais permissivo.
+3 - O Modificador de acesso pode ser o mesmo da superclasse ou uma mais permissivo:
 
-[img] superclase img -  subclasse
+Classe pai:
+![imagem local](imagem_readme/modificador_acesso_pai.png)
+
+
+Classe: filha
+
+![imagem local](imagem_readme/modificador_acesso_filha.png)
 
 
 Se na superculasse o metodo estiver com o modificador de acesso protected, na subclasse você pode manter como protected ou alterar para um mais permissivo, no caso public.
@@ -68,14 +74,19 @@ Quando há um metodo na superclasse que declara qualquer exceção, você não �
 
 É aqui que está a magia, polimorfismo é uma das ferramentas mais poderosoas da POO, em java você pode criar um objeto de uma classe filha a partir de uma referência da classe pai.
 
-[img] img da instanciação de classes
+![imagem local](imagem_readme/instancia.png)
 
 Isso permite que voce tenha acesso a campos da classe pai com a diferença que metodos sobrescritos chamados no programa serão o da classe filha. Exatamente isso, o metodo depende do tipo real do objeto. O que acontece é que as duas classes são inicializada através dos construtores, então campos de ambas as classes estão disponíveis, podendo ter multiplas formas de usar esses metodos sobrescritos. 
 
-[img] classe corola completa
+![imagem local](imagem_readme/classe_corola.png)
 
-[img] funcionamento do programa com a saida no console
+Na prática: 
 
+![imagem local](imagem_readme/classe_main.png)
+
+saída no console: 
+
+![imagem local](imagem_readme/console.png)
 
 
 ### Polimorfismo em tempo de compilação ou Polimorfismo de sobrecarga(Overload)
