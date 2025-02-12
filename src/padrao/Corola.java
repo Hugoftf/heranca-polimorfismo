@@ -18,8 +18,8 @@ public class Corola extends Automovel {
 
 	@Override
 	public void descricaoDoAutomovel() {
-		System.out.println("Sou um "+ super.getTipoDEAltomovel() + ", o mais elogiado do ano, confortavel e possuo a cor " + super.getCorDoAltomovel());
-		
+		System.out.println("Sou um "+ super.getTipoDEAltomovel() + ", "
+				+ "o mais elogiado do ano, confortavel e possuo a cor " + super.getCorDoAltomovel());	
 	}
 	
 	@Override

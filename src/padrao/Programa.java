@@ -18,9 +18,7 @@ public class Programa {
 		
 		String corDoAltomovel = "Azul";
 		
-		
-		Corola corola =  new Corola(corDoAltomovel, tipoAltomovel);
-		
+		Automovel corola =  new Corola(corDoAltomovel, tipoAltomovel);
 		corola.descricaoDoAutomovel();
 	}
 }

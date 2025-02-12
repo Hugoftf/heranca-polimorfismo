@@ -2,8 +2,8 @@ package padrao;
 
 public abstract class Automovel {
 
-	private String corDoAltomovel;
-	private TipoAltomovel tipoDEAltomovel;
+	private String corDoAltomovel =  "verde";
+	private TipoAltomovel tipoDEAltomovel = TipoAltomovel.VAN;
 	
 	public Automovel(String corDoAltomovel, TipoAltomovel tipoDeAltomovel) {
 		this.corDoAltomovel = corDoAltomovel;
