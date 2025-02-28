@@ -1,6 +1,6 @@
 # Herança na prática e o poder do Polimorfismo
 
-![imagem local](heranca-polimorfismo/herenaça-polimorfismo/imagem_readme/artigo_programacao-orientada-a-objetos-com-java_18449.png)
+![imagem local](herenaça-polimorfismo/imagem_readme/artigo_programacao-orientada-a-objetos-com-java_18449.png)
 
 Uma das matérias mais interessantes e mais complexas da Programação Orientada a Objetos, Nesse tópico vou comentar detalhadamente, mostrar utilidades e o que pode ou não pode ser feito.
 
